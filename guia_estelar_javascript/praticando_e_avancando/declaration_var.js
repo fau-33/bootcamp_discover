@@ -17,4 +17,9 @@ isHuman = true
 //console.log(name, age, isHuman)
 
 //escrita de texto + variáveis
-console.log("O Mike tem 18 anos")
+
+//Concatenando valores
+//console.log('O '+ name +' tem '+ age + 'anos')
+
+//Interpolando valores com temolate literals or template strings
+console.log(`O ${name} tem ${age} anos`)
